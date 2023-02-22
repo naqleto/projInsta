@@ -7,7 +7,6 @@ export default function Header(props){
             <TouchableOpacity>
                 <Image
                 source={require('../img/logo.png')}
-                
                 />
             </TouchableOpacity>
 
@@ -17,7 +16,6 @@ export default function Header(props){
                 style={styles.logo}
                 />
             </TouchableOpacity>
-            
         </View>
     );
 }
